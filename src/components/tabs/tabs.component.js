@@ -42,7 +42,7 @@ class Links extends Component {
               .map(
                 (link) => `
                   <div class="link-info">
-                    <a href="${link.url}" target="_blank">
+                    <a href="${link.url}" >
                       ${Links.getIcon(link)}
                       ${link.name ? `<p class="link-name">${link.name}</p>` : ""}
                     </a>
@@ -59,6 +59,7 @@ class Links extends Component {
 
 /**
  * Component for rendering tab categories with background styling
+ * target = "_blank" (in line 45)
  */
 class Category extends Component {
   /**
