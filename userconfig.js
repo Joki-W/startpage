@@ -259,6 +259,12 @@ const default_configuration = {
               icon: "spider",
               icon_color: palette.red,
             },
+            {
+              name: "Clues by Sam",
+              url: "https://cluesbysam.com/",
+              icon: "search",
+              icon_color: palette.blue,
+            },
           ],
         },
         {
